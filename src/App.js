@@ -6,7 +6,7 @@ import DocumentList from './components/DocumentList';
 function App() {
   return (
     <div className="flex flex-row w-full h-full">
-      <div className='flex-[1_1_15%] bg-rich-black text-white'>
+      <div className='flex-[1_1_20%] bg-rich-black text-white'>
         <DocumentList />
       </div>
       <div className='flex flex-auto bg-oxford-blue w-full'>

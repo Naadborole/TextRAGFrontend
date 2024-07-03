@@ -11,7 +11,7 @@ export default function
             </div>
             <div className="flex flex-auto mt-3 p-4 flex-col">
                 {documentList.map((item) => (
-                    <div className="flex items-center h-10">
+                    <div className="flex items-center h-10" key={item.name}>
                         {item.name}
                     </div>
                 ))}
