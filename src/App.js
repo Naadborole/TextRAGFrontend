@@ -9,7 +9,7 @@ function App() {
       <div className='flex-[1_1_15%] bg-rich-black text-white'>
         <DocumentList />
       </div>
-      <div className='flex-[1_1_85%] bg-oxford-blue'>
+      <div className='flex flex-auto bg-oxford-blue w-full'>
         <ChatInput />
       </div>
     </div>
