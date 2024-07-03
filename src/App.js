@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import ChatInput from './components/ChatInput';
+import DocumentList from './components/DocumentList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-row w-full h-full">
+      <div className='flex-[1_1_15%] bg-rich-black text-white'>
+        <DocumentList />
+      </div>
+      <div className='flex-[1_1_85%] bg-oxford-blue'>
+        <ChatInput />
+      </div>
     </div>
   );
 }
